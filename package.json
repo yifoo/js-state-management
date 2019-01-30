@@ -1,0 +1,23 @@
+{
+  "name": "js-state-management",
+  "version": "1.0.0",
+  "description": "simple state management",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yifoo/js-state-management.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "state"
+  ],
+  "author": "yifoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yifoo/js-state-management/issues"
+  },
+  "homepage": "https://github.com/yifoo/js-state-management#readme"
+}
