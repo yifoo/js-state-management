@@ -1,4 +1,4 @@
-## js-state-management    [Demo](http://test.haohome.top/webpack-spa/#/state)
+## js-state-management    [预览](http://test.haohome.top/store/)
 
 > 一次偶然在掘金看到一位大大分享了老外写的js状态管理文章,通读后就决定自己也实现一遍,目的是了解状态管理的内部机制.
 
