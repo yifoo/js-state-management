@@ -1,0 +1,181 @@
+/*
+ * @Author: wuhao 
+ * @Date: 2018-10-30 15:49:46 
+ * @Desc: 样式重置
+ * @Last Modified by: wuhao
+ * @Last Modified time: 2019-01-30 19:30:22
+ */
+@charset "utf-8";
+/* CSS Document */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+address,
+table,
+th,
+tr,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px/20px "微软雅黑", verdana, tahoma, simsun, sans-serif;
+  color: #343434;
+  background: #fff;
+}
+
+em,
+cite,
+i {
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol,
+ul,
+dl {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*图片为空时默认不显示*/
+
+img[src=""],
+img:not([src]) {
+  opacity: 0;
+}
+
+input[type=button],
+input[type=reset],
+input[type=submit],
+input[type=radio],
+input[type=checkbox] {
+  cursor: pointer
+}
+
+label {
+  cursor: pointer;
+}
+
+input:disabled {
+  border: none;
+}
+textarea{
+  outline: none;
+  resize: none;
+}
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden
+}
+
+.clearfix {
+  zoom: 1
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  // color: #0160cb;
+  text-decoration: none;
+}
+
+/*字体大小*/
+
+html {
+  font-size: 15px;
+}
+html * {
+  padding: 0;
+  margin: 0;
+}
+
+
+input::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
+
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #d9d9d9;
+}
+
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #d9d9d9;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #d9d9d9;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
+
+textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #d9d9d9;
+}
+
+textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #d9d9d9;
+}
+
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #d9d9d9;
+}
+code {
+  font-family: Consolas, Monaco, Andale Mono, monospace;
+}
+
+pre {
+  padding:1rem .5rem;
+  line-height: 1.2rem;
+}

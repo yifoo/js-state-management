@@ -1,0 +1,8 @@
+<div class="index">
+  <h1>首页</h1>
+  <hr>
+  <button id="btn1">增加数量</button>
+  <button id="btn2">减少数量</button>
+  <br><br>
+  <h3 id='time'><%= count%></h3>
+</div>

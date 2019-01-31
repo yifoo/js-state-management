@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+.git
+*.rar
+*.zip
+*.log
+node_modules/
+dist/
+logs/
+*.txt
+*.bat
+*.xmind
+*.mmap
+*.php
+demo.html
+static/test

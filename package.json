@@ -4,7 +4,8 @@
   "description": "simple state management",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --inline --progress --colors --config config/webpack.dev.js",
+    "build": "webpack --progress --colors --config config/webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,42 @@
   "bugs": {
     "url": "https://github.com/yifoo/js-state-management/issues"
   },
-  "homepage": "https://github.com/yifoo/js-state-management#readme"
+  "homepage": "https://github.com/yifoo/js-state-management#readme",
+  "devDependencies": {
+    "art-template-loader": "^1.4.3",
+    "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.3",
+    "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.9",
+    "exports-loader": "^0.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "markdown-loader": "^4.0.0",
+    "node-sass": "^4.10.0",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "webpac": "^1.0.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-dev-server": "^2.11.2",
+    "webpack-hot-middleware": "^2.21.2",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "art-template": "^4.13.1"
+  }
 }

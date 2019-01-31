@@ -1,0 +1,6 @@
+<div class="detail">
+  <h1>详情</h1>
+  <hr>
+  <br><br>
+  <h3 id="count"><%= count%></h3>
+</div>
