@@ -52,7 +52,7 @@ class Subject {
   /**
    * 发布主题,触发订阅事件
    */
-  pulish() {
+  publish() {
     var name = Array.prototype.shift.call(arguments)	// 获取事件名称
     var fns = this.eventList[name]
     if (!fns || fns.length == 0) { // 没有订阅该事件
@@ -113,7 +113,7 @@ this.state = new Proxy(params.state || {}, {
     }
     state[key] = val
     console.log(`状态变化:${key}:${val}`)
-    _self._subject.pulish('stateChange', _self.state)
+    _self._subject.publish('stateChange', _self.state)
     _self.status = 'resting';
     return true
   }

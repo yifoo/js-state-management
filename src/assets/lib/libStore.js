@@ -19,7 +19,7 @@ class LibStore {
         }
         state[key] = val
         console.log(`状态变化:${key}:${val}`)
-        _self._subject.pulish('stateChange', _self.state)
+        _self._subject.publish('stateChange', _self.state)
         _self.status = 'resting';
         return true
       }

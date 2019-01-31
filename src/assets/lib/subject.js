@@ -37,7 +37,7 @@ class Subject {
   /**
    * 发布主题,触发订阅事件
    */
-  pulish() {
+  publish() {
     var name = Array.prototype.shift.call(arguments)
     var fns = this.eventList[name]
     if (!fns || fns.length == 0) { // 没有订阅该事件
